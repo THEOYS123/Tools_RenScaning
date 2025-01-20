@@ -1,9 +1,4 @@
-Berikut deskripsi yang lebih keren untuk file README.md lengkap dengan tambahan emoji, penjelasan lebih menarik, dan cara instalasi serta menjalankan tools-nya:
-
-
----
-
-$ *🚀 Tools_RenScaning 🔍*
+# *🚀 Tools_RenScaning 🔍*
 
 Tools_RenScaning adalah alat berbasis command-line yang dirancang khusus untuk scanning dan pengujian keamanan. Dengan antarmuka yang sederhana namun fungsional, tools ini sangat cocok buat kamu yang ingin eksplor dunia Cyber Security atau melakukan analisis pada aplikasi secara mendalam.
 
@@ -14,7 +9,7 @@ Tools_RenScaning adalah alat berbasis command-line yang dirancang khusus untuk s
 
 ---
 
-#*🛠️ Fitur Utama*
+# *🛠️ Fitur Utama*
 
 💡 Tampilan Menu yang Simpel:
 Memudahkan kamu memilih berbagai mode scanning hanya dengan satu klik.
@@ -44,7 +39,7 @@ Saat tools berjalan, kamu akan melihat animasi loading yang bikin pengalaman jad
 
 ---
 
-#*🖼️ Preview Tampilan Menu*
+# *🖼️ Preview Tampilan Menu*
 
 ```
 
@@ -72,7 +67,7 @@ Saat tools berjalan, kamu akan melihat animasi loading yang bikin pengalaman jad
 
 ---
 
-#*🔧 Cara Install & Menjalankan Tools*
+# *🔧 Cara Install & Menjalankan Tools*
 
 Berikut langkah-langkah untuk menginstal dan menjalankan tools ini di perangkat kamu:
 
@@ -98,10 +93,34 @@ python Scaning.py
 git clone https://github.com/THEOYS123/Tools_RenScaning.git
 cd Tools_RenScaning
 python Scaning.py
+```
+---
 
 ---
 
-🎯 Kelebihan Tools Ini
+🌐 Menggunakan Proxy
+
+Kalian juga bisa menggunakan proxy untuk menyembunyikan identitas atau mengalihkan lalu lintas jaringan saat melakukan scanning. Namun, perlu diingat bahwa proxy ini hanya proxy biasa yang mendukung fungsi dasar. Proxy ini cocok digunakan untuk kebutuhan sederhana saja. 🚀
+
+Untuk menjalankan proxy, gunakan perintah berikut:
+
+python proxy.py <port>
+
+📋 Penjelasan:
+
+Ganti <port> dengan nomor port yang ingin kalian gunakan (contoh: 8080).
+
+Proxy ini hanya proxy HTTP dasar dan tidak mendukung fitur-fitur kompleks, jadi cocok untuk keperluan basic.
+
+Pastikan file proxy.py berada di direktori yang sama dengan script utama kalian.
+
+
+
+---
+
+
+
+# *🎯 Kelebihan Tools Ini*
 
 🔥 User-Friendly: Tidak perlu ribet! Semua fitur tersaji dalam menu sederhana.
 🔒 Aman: Dirancang untuk pengujian legal dan edukasi.
@@ -110,7 +129,7 @@ python Scaning.py
 
 ---
 
-📌 Catatan Penting
+# *📌 Catatan Penting*
 
 Tools ini hanya untuk Edukasi dan Pengujian Legal.
 
