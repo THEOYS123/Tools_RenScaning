@@ -3,7 +3,7 @@ Berikut deskripsi yang lebih keren untuk file README.md lengkap dengan tambahan 
 
 ---
 
-🚀 Tools_RenScaning 🔍
+$ *🚀 Tools_RenScaning 🔍*
 
 Tools_RenScaning adalah alat berbasis command-line yang dirancang khusus untuk scanning dan pengujian keamanan. Dengan antarmuka yang sederhana namun fungsional, tools ini sangat cocok buat kamu yang ingin eksplor dunia Cyber Security atau melakukan analisis pada aplikasi secara mendalam.
 
@@ -14,7 +14,7 @@ Tools_RenScaning adalah alat berbasis command-line yang dirancang khusus untuk s
 
 ---
 
-🛠️ Fitur Utama
+#*🛠️ Fitur Utama*
 
 💡 Tampilan Menu yang Simpel:
 Memudahkan kamu memilih berbagai mode scanning hanya dengan satu klik.
@@ -44,7 +44,7 @@ Saat tools berjalan, kamu akan melihat animasi loading yang bikin pengalaman jad
 
 ---
 
-🖼️ Preview Tampilan Menu
+#*🖼️ Preview Tampilan Menu*
 
 ```
 
@@ -72,7 +72,7 @@ Saat tools berjalan, kamu akan melihat animasi loading yang bikin pengalaman jad
 
 ---
 
-🔧 Cara Install & Menjalankan Tools
+#*🔧 Cara Install & Menjalankan Tools*
 
 Berikut langkah-langkah untuk menginstal dan menjalankan tools ini di perangkat kamu:
 
@@ -94,6 +94,10 @@ Jalankan tools menggunakan Python:
 
 python Scaning.py
 
+```bash
+git clone https://github.com/THEOYS123/Tools_RenScaning.git
+cd Tools_RenScaning
+python Scaning.py
 
 ---
 
