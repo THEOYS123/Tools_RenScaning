@@ -14,7 +14,7 @@ def print_banner():
     print("\033[1;34m███████║╚██████╗██║  ██║██║ ╚████║██║██║ ╚████║╚██████╔╝")
     print("\033[1;31m╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝  ╚═══╝ ╚═════╝")
     print("\033[1;33m==============================================================")
-    print("\033[1;36m         Welcome To Tools Ren Scaning - REN-XPLOIT")
+    print("\033[1;36m         Welcome To Tools Ren Scanning - REN-XPLOIT")
     print("\033[1;37m==============================================================\n")
     
 def print_loading():
@@ -41,11 +41,23 @@ def get_choice():
     choice = input("\033[1;37m\nEnter your choice: ")
     return choice
 
+def ask_continue():
+    while True:
+        cont = input("\n\033[1;37mDo you want to return to the main menu? (y/n): ").lower()
+        if cont == 'y':
+            return True
+        elif cont == 'n':
+            print("\033[1;31mExiting program...")
+            time.sleep(1)
+            exit()
+        else:
+            print("\033[1;31mInvalid input! Please enter 'y' or 'n'.")
+
 def process_choice(choice):
     if choice == '1':
         print("\033[1;32mRunning Scanningv1...")
         print_loading()
-        os.system('python ren/scan_web.py')
+        os.system('python ren/cek_web.py')
     elif choice == '2':
         print("\033[1;32mRunning Scanningv2...")
         print_loading()
@@ -57,11 +69,11 @@ def process_choice(choice):
     elif choice == '4':
         print("\033[1;32mRunning Scanningv4...")
         print_loading()
-        os.system('python /ren/VulnHunter.py')
+        os.system('python /ren/ren-folder1/VulnHunter.py')
     elif choice == '5':
         print("\033[1;32mRunning Scanningv5...")
         print_loading()
-        os.system('python ren/cek_header')
+        os.system('python ren/cek_header.py')
     elif choice == '6':
         print("\033[1;32mRunning PROXY TOR...")
         print_loading()
@@ -79,3 +91,5 @@ if __name__ == "__main__":
         main_menu()
         choice = get_choice()
         process_choice(choice)
+        if not ask_continue():
+            break
