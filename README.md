@@ -60,7 +60,8 @@ Saat tools berjalan, kamu akan melihat animasi loading yang bikin pengalaman jad
 [2] Scanningv2  
 [3] Scanningv3  
 [4] Scanningv4  
-[5] Scanningv5  
+[5] Scanningv5
+[6] PROXY TOR
 [0] Exit
 
 ```
@@ -191,6 +192,10 @@ Proxy ini sangat berguna untuk kebutuhan anonimitas, terutama untuk penetration 
 
 ---
 
+# *📸Screenshot 📸*
+<p align="center">
+  <img src="https://k.top4top.io/p_3307a1y582.jpg" width="300"  />
+</p>
 
 
 # *🎯 Kelebihan Tools Ini*
