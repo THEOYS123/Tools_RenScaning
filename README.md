@@ -4,7 +4,7 @@ Tools_RenScaning adalah alat berbasis command-line yang dirancang khusus untuk s
 
 > ⚠️ Disclaimer: Gunakan tools ini hanya untuk keperluan legal, seperti pada server atau aplikasi yang kamu miliki izin untuk diuji.
 
-
+`eh btw kalau ada yang error pada tools nya langsung chat saya aja atau bingung cara menggunakan nya, scroll sampai ke bawah untuk chat whatsapp saya, dan jika ada kata" yang typo wajarin aja soalnya saja juga manusia suka typo bukan robot boy🗿👍`
 
 
 ---
@@ -126,7 +126,7 @@ nano proxy.py
 
 4. Isi dengan Script Proxy: Salin seluruh script proxy yang sudah aku buat sebelumnya ke dalam file proxy.py.
 
-# LIHAT INI AGAR TIDAK TERJADI ERROR PADS PROXY!!! 
+# LIHAT INI AGAR TIDAK TERJADI ERROR PADA PROXY!!! 
 
 5. Jalankan Tor: Setelah itu, jalankan Tor agar proxy bisa berjalan:
 ```
