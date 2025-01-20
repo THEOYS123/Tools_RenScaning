@@ -69,7 +69,7 @@ def process_choice(choice):
     elif choice == '4':
         print("\033[1;32mRunning Scanningv4...")
         print_loading()
-        os.system('python /ren/ren-folder1/VulnHunter.py')
+        os.system('python ren/ren-folder1/VulnHunter.py')
     elif choice == '5':
         print("\033[1;32mRunning Scanningv5...")
         print_loading()
