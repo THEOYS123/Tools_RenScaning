@@ -94,7 +94,6 @@ git clone https://github.com/THEOYS123/Tools_RenScaning.git
 cd Tools_RenScaning
 python Scaning.py
 ```
----
 
 ---
 
@@ -103,6 +102,7 @@ python Scaning.py
 Kalian juga bisa menggunakan proxy untuk menyembunyikan identitas atau mengalihkan lalu lintas jaringan saat melakukan scanning. Namun, perlu diingat bahwa proxy ini hanya proxy biasa yang mendukung fungsi dasar. Proxy ini cocok digunakan untuk kebutuhan sederhana saja. 🚀
 
 Untuk menjalankan proxy, gunakan perintah berikut:
+
 `
  python proxy.py port
 `
