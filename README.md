@@ -2,7 +2,7 @@
 
 Tools_RenScaning adalah alat berbasis command-line yang dirancang khusus untuk scanning dan pengujian keamanan. Dengan antarmuka yang sederhana namun fungsional, tools ini sangat cocok buat kamu yang ingin eksplor dunia Cyber Security atau melakukan analisis pada aplikasi secara mendalam.
 
-> ⚠️ Disclaimer: Gunakan tools ini hanya untuk keperluan legal, seperti pada server atau aplikasi yang kamu miliki izin untuk diuji.
+> ⚠️ Disclaimer: Gunakan tools ini hanya untuk keperluan legal, seperti pada server atau aplikasi yang kamu miliki izin untuk diuji. dan ada tambahan untuk menggunakan proxy yang sudah di  sediakan untuk segala macam asalkan jangan di pakai untuk berbuat yang aneh" karena itu di tanggung sendiri🗿
 
 `eh btw kalau ada yang error pada tools nya langsung chat saya aja atau bingung cara menggunakan nya, scroll sampai ke bawah untuk chat whatsapp saya, dan jika ada kata" yang typo wajarin aja soalnya saja juga manusia suka typo bukan robot boy🗿👍`
 
