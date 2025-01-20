@@ -33,6 +33,7 @@ def main_menu():
     print("\033[1;34m[3] Scanningv3")
     print("\033[1;34m[4] Scanningv4")
     print("\033[1;34m[5] Scanningv5")
+    print("\033[1;34m[6] PROXY TOR") 
     print("\033[1;31m[0] Exit")
     print("\033[1;37m")
 
@@ -61,6 +62,10 @@ def process_choice(choice):
         print("\033[1;32mRunning Scanningv5...")
         print_loading()
         os.system('python ren/cek_header')
+    elif choice == '6':
+        print("\033[1;32mRunning PROXY TOR...")
+        print_loading()
+        os.system('python proxy.py')
     elif choice == '0':
         print("\033[1;31mExiting program...")
         time.sleep(1)
