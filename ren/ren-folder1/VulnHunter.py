@@ -32,11 +32,11 @@ def menu():
 def pilih_menu():
     choice = input("\033[1;33mPilih nomor (1-3) : \033[1;37m")
     if choice == '1':
-        os.system('python /ren-folder1/help.py')  
+        os.system('python ren/ren-folder1/help.py')  
     elif choice == '2':
-        os.system('python /ren-folder1/txt.py') 
+        os.system('python ren/ren-folder1/txt.py') 
     elif choice == '3':
-        os.system('python /ren-folder1/scan.py') 
+        os.system('python ren/ren-folder1/scan.py') 
     elif choice == '4':
         print("\033[1;31mKeluar... Terima kasih telah menggunakan VulnHunter_Ren!")
         time.sleep(2)
