@@ -104,11 +104,11 @@ Kalian juga bisa menggunakan proxy untuk menyembunyikan identitas atau mengalihk
 
 Untuk menjalankan proxy, gunakan perintah berikut:
 
- python proxy.py <port>
+ python proxy.py port
 
 📋 Penjelasan:
 
-Ganti <port> dengan nomor port yang ingin kalian gunakan (contoh: 8080).
+Ganti port dengan nomor port yang ingin kalian gunakan (contoh: 8080).
 
 Proxy ini hanya proxy HTTP dasar dan tidak mendukung fitur-fitur kompleks, jadi cocok untuk keperluan basic.
 
