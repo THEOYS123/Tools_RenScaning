@@ -97,22 +97,96 @@ python Scaning.py
 
 ---
 
-🌐 Menggunakan Proxy
-
+🌐 Menggunakan Proxy dengan Tor 🌐
 Kalian juga bisa menggunakan proxy untuk menyembunyikan identitas atau mengalihkan lalu lintas jaringan saat melakukan scanning. Namun, perlu diingat bahwa proxy ini hanya proxy biasa yang mendukung fungsi dasar. Proxy ini cocok digunakan untuk kebutuhan sederhana saja. 🚀
 
-Untuk menjalankan proxy, gunakan perintah berikut:
+Dengan menggunakan proxy Tor, kamu bisa menyembunyikan identitasmu dan menjelajahi dunia maya secara anonim. Proxy ini memungkinkan kamu untuk mengalihkan lalu lintas jaringanmu melalui Tor, sehingga membuatmu lebih aman dan tidak terdeteksi. Selain itu, proxy ini juga bisa mengganti IP secara instan untuk menjaga privasimu tetap terjaga. 😎
 
-`python proxy.py port`
- 
-📋 Penjelasan:
+Cara Install di Termux 🔧
 
-Ganti port dengan nomor port yang ingin kalian gunakan (contoh: 8080).
+1. Install Dependencies: Mulai dengan menginstall paket-paket yang dibutuhkan:
+```
+pkg update && pkg upgrade
+pkg install python
+pkg install git
+pkg install tor
+pip install requests stem flask
+```
 
-Proxy ini hanya proxy HTTP dasar dan tidak mendukung fitur-fitur kompleks, jadi cocok untuk keperluan basic.
+2. Install Tor: Install Tor di Termux untuk menggunakan SOCKS proxy:
+```
+pkg install tor
+```
 
-Pastikan file proxy.py berada di direktori yang sama dengan script utama kalian.
+3. Download Script Proxy: Download atau buat file proxy.py di Termux:
+```
+nano proxy.py
+```
 
+4. Isi dengan Script Proxy: Salin seluruh script proxy yang sudah aku buat sebelumnya ke dalam file proxy.py.
+
+# LIHAT INI AGAR TIDAK TERJADI ERROR PADS PROXY!!! 
+
+5. Jalankan Tor: Setelah itu, jalankan Tor agar proxy bisa berjalan:
+```
+tor &
+```
+
+6. Jalankan Script Proxy: Terakhir, jalankan script proxy.py:
+```
+python proxy.py
+```
+
+
+Cara Menggunakan Proxy 🌍
+
+1. Akses Website dengan Proxy: Setelah server berjalan, kamu bisa mengakses situs secara anonim menggunakan proxy dengan URL:
+
+> http://127.0.0.1:5050/fetch?url=https://polri.go.id
+
+Contoh penggunaan: Cukup ganti URL yang ingin kamu akses setelah ?url=, dan proxy akan menangani sisanya. 💻
+
+
+2. Ganti IP Tor: Kamu juga bisa mengganti IP Tor kapan saja untuk menjaga anonimitas:
+
+> http://127.0.0.1:5050/change_ip
+
+
+
+Penjelasan 🔍
+
+port: Ganti port sesuai dengan keinginanmu, misalnya 5050, 8080, dan lain-lain.
+
+fetch?url=URL: Gunakan URL lengkap dengan http:// atau https:// untuk mengambil halaman secara anonim.
+
+change_ip: Ganti IP Tor kamu dengan sekali klik, agar tetap aman dan anonim.
+
+
+Contoh Penggunaan 📡
+
+Untuk mengambil halaman dari situs Polri secara anonim, buka URL ini:
+
+> http://127.0.0.1:5050/fetch?url=https://polri.go.id
+
+Fitur-fitur Keren 🎉
+
+Anonimitas 100%: Menyembunyikan identitas dengan jaringan Tor.
+
+Ganti IP: Ganti IP secara instan tanpa perlu repot.
+
+Akses tanpa batas: Akses situs apa pun dengan mudah dan aman.
+
+
+Tips 💡
+
+Selalu pastikan Tor berjalan sebelum menggunakan proxy ini.
+
+Setiap akses ke situs akan memberikan kamu IP yang berbeda berkat fitur Ganti IP Tor. Jadi, aman dan tidak terlacak! 🔒
+
+
+Ingat! 📝
+
+Proxy ini sangat berguna untuk kebutuhan anonimitas, terutama untuk penetration testing, scraping, atau sekadar browsing secara aman dan tanpa jejak.
 
 
 ---
