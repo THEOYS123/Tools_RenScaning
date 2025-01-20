@@ -103,9 +103,9 @@ python Scaning.py
 Kalian juga bisa menggunakan proxy untuk menyembunyikan identitas atau mengalihkan lalu lintas jaringan saat melakukan scanning. Namun, perlu diingat bahwa proxy ini hanya proxy biasa yang mendukung fungsi dasar. Proxy ini cocok digunakan untuk kebutuhan sederhana saja. 🚀
 
 Untuk menjalankan proxy, gunakan perintah berikut:
-
+`
  python proxy.py port
-
+`
 📋 Penjelasan:
 
 Ganti port dengan nomor port yang ingin kalian gunakan (contoh: 8080).
