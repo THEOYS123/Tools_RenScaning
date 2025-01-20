@@ -104,7 +104,7 @@ Kalian juga bisa menggunakan proxy untuk menyembunyikan identitas atau mengalihk
 
 Untuk menjalankan proxy, gunakan perintah berikut:
 
-python proxy.py <port>
+> python proxy.py <port>
 
 📋 Penjelasan:
 
